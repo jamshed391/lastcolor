@@ -249,7 +249,7 @@ function startGUI () {
     let githubIcon = document.createElement('span');
     github.domElement.parentElement.appendChild(githubIcon);
     githubIcon.className = 'icon github';
-
+/*
     let twitter = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'twitter');
         window.open('');
@@ -259,6 +259,9 @@ function startGUI () {
     let twitterIcon = document.createElement('span');
     twitter.domElement.parentElement.appendChild(twitterIcon);
     twitterIcon.className = 'icon twitter';
+    */
+    
+    
 
     let discord = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'discord');
