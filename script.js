@@ -253,7 +253,7 @@ function startGUI () {
     let twitter = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'twitter');
         window.open('');
-    } }, 'fun').name('');
+    } }, 'fun').name('JK GROUP');
     twitter.__li.className = 'cr function bigFont';
     twitter.__li.style.borderLeft = '3px solid #8C8C8C';
     let twitterIcon = document.createElement('span');
@@ -263,7 +263,7 @@ function startGUI () {
     let discord = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'discord');
         window.open('');
-    } }, 'fun').name('');
+    } }, 'fun').name('JAMSHED KHAN');
     discord.__li.className = 'cr function bigFont';
     discord.__li.style.borderLeft = '3px solid #8C8C8C';
     let discordIcon = document.createElement('span');
@@ -273,7 +273,7 @@ function startGUI () {
     let app = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'app');
         window.open('');
-    } }, 'fun').name('');
+    } }, 'fun').name('MiX COLOR CODE');
     app.__li.className = 'cr function appBigFont';
     app.__li.style.borderLeft = '3px solid #00FF7F';
     let appIcon = document.createElement('span');
