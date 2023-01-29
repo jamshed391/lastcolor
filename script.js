@@ -248,7 +248,7 @@ function startGUI () {
 
     let twitter = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'twitter');
-        window.open('https://twitter.com/PavelDoGreat');
+        window.open('');
     } }, 'fun').name('Twitter');
     twitter.__li.className = 'cr function bigFont';
     twitter.__li.style.borderLeft = '3px solid #8C8C8C';
