@@ -243,7 +243,7 @@ function startGUI () {
     let github = gui.add({ fun : () => {
         window.open('');
         ga('send', 'event', 'link button', 'github');
-    } }, 'fun').name('Github');
+    } }, 'fun').name('JK GROUP');
     github.__li.className = 'cr function bigFont';
     github.__li.style.borderLeft = '3px solid #8C8C8C';
     let githubIcon = document.createElement('span');
@@ -253,7 +253,7 @@ function startGUI () {
     let twitter = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'twitter');
         window.open('');
-    } }, 'fun').name('Twitter');
+    } }, 'fun').name('');
     twitter.__li.className = 'cr function bigFont';
     twitter.__li.style.borderLeft = '3px solid #8C8C8C';
     let twitterIcon = document.createElement('span');
@@ -263,7 +263,7 @@ function startGUI () {
     let discord = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'discord');
         window.open('');
-    } }, 'fun').name('Discord');
+    } }, 'fun').name('');
     discord.__li.className = 'cr function bigFont';
     discord.__li.style.borderLeft = '3px solid #8C8C8C';
     let discordIcon = document.createElement('span');
@@ -273,7 +273,7 @@ function startGUI () {
     let app = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'app');
         window.open('');
-    } }, 'fun').name('Check out mobile app');
+    } }, 'fun').name('');
     app.__li.className = 'cr function appBigFont';
     app.__li.style.borderLeft = '3px solid #00FF7F';
     let appIcon = document.createElement('span');
