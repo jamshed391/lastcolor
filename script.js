@@ -26,6 +26,34 @@ SOFTWARE.
 
 // Mobile promo section
 
+/*
+
+const promoPopup = document.getElementsByClassName('promo')[0];
+const promoPopupClose = document.getElementsByClassName('promo-close')[0];
+
+if (isMobile()) {
+    setTimeout(() => {
+        promoPopup.style.display = 'table';
+    }, 20000);
+}
+
+promoPopupClose.addEventListener('click', e => {
+    promoPopup.style.display = 'none';
+});
+
+const appleLink = document.getElementById('apple_link');
+appleLink.addEventListener('click', e => {
+    ga('send', 'event', 'link promo', 'app');
+    window.open('https://apps.apple.com/us/app/fluid-simulation/id1443124993');
+});
+
+const googleLink = document.getElementById('google_link');
+googleLink.addEventListener('click', e => {
+    ga('send', 'event', 'link promo', 'app');
+    window.open('https://play.google.com/store/apps/details?id=games.paveldogreat.fluidsimfree');
+});
+
+*/
 
 // Simulation section
 
@@ -213,7 +241,7 @@ function startGUI () {
     captureFolder.add({ fun: captureScreenshot }, 'fun').name('take screenshot');
 
     let github = gui.add({ fun : () => {
-        window.open('https://github.com/PavelDoGreat/WebGL-Fluid-Simulation');
+        window.open('');
         ga('send', 'event', 'link button', 'github');
     } }, 'fun').name('Github');
     github.__li.className = 'cr function bigFont';
@@ -234,7 +262,7 @@ function startGUI () {
 
     let discord = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'discord');
-        window.open('https://discordapp.com/invite/CeqZDDE');
+        window.open('');
     } }, 'fun').name('Discord');
     discord.__li.className = 'cr function bigFont';
     discord.__li.style.borderLeft = '3px solid #8C8C8C';
@@ -244,7 +272,7 @@ function startGUI () {
 
     let app = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'app');
-        window.open('http://onelink.to/5b58bn');
+        window.open('');
     } }, 'fun').name('Check out mobile app');
     app.__li.className = 'cr function appBigFont';
     app.__li.style.borderLeft = '3px solid #00FF7F';
